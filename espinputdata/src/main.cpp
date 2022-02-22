@@ -21,8 +21,8 @@
 
 AsyncWebServer server(80);
 
-const char* ssid = "Home399";          // Your WiFi SSID
-const char* password = "399angier";  // Your WiFi Password
+const char* ssid = "";          // Your WiFi SSID
+const char* password = "";  // Your WiFi Password
 
 const char* PARAM_INPUT_1 = "input1";
 const char* PARAM_INPUT_2 = "input2";
