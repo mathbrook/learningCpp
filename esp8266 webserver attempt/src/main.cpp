@@ -13,8 +13,8 @@ File myFile;
 #define LED 2
 AsyncWebServer server(80);
 
-const char* ssid = "Home399";          // Your WiFi SSID
-const char* password = "399angier";  // Your WiFi Password
+const char* ssid = "******";          // Your WiFi SSID
+const char* password = "*******";  // Your WiFi Password
 SoftwareSerial unoSerial(D6, D5);
 void recvMsg(unsigned char *data, size_t len){
   WebSerial.println("Received Data...");
